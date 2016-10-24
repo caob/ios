@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backgound" translatesAutoresizingMaskIntoConstraints="NO" id="jzM-mR-7cJ"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="whiteLogo" translatesAutoresizingMaskIntoConstraints="NO" id="OgJ-JC-45P">
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="OgJ-JC-45P" secondAttribute="height" multiplier="261:313" id="mMz-5B-xCW"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="jzM-mR-7cJ" secondAttribute="bottom" id="7Zn-Ta-AiT"/>
+                            <constraint firstItem="OgJ-JC-45P" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="JPi-2i-Su4"/>
+                            <constraint firstItem="OgJ-JC-45P" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="SEN-aH-Zfz"/>
+                            <constraint firstItem="jzM-mR-7cJ" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="YFg-uc-Wpu"/>
+                            <constraint firstAttribute="trailing" secondItem="jzM-mR-7cJ" secondAttribute="trailing" id="bMK-g7-fMw"/>
+                            <constraint firstItem="OgJ-JC-45P" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.4" id="ndS-st-nmH"/>
+                            <constraint firstItem="jzM-mR-7cJ" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" id="xDf-KY-Oky"/>
+                            <constraint firstItem="jzM-mR-7cJ" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="yQi-GJ-uRA"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="backgound" width="375" height="667"/>
+        <image name="whiteLogo" width="261" height="313"/>
+    </resources>
+</document>

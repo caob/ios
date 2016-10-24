@@ -1,0 +1,6 @@
+framework module ViewUtils {
+  umbrella header "ViewUtils-umbrella.h"
+
+  export *
+  module * { export * }
+}
